@@ -1,3 +1,4 @@
+
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -5,7 +6,7 @@
 }
 
 .container {
-  width: 960px;
+  width: 1140px;
   margin: 0 auto;
   padding: 0px;
   position: relative;
@@ -94,16 +95,12 @@
   width: 300px;
 }
 
-.procedimentos {
-    padding-top: 60px;
-}
 
-.procedimentos_lista {
-    width: 940px;
-    height: 320px;
-}
+
+
 .tituloprocedimentos {
-    text-align:center;
+  text-align: center;
+  margin-top: 60px;
 }
 .tituloprocedimentos:after {
   content: "";
@@ -115,13 +112,28 @@
   margin-bottom: 40px;
 }
 
-.procedimentos_foto {
-    background-color: black;
-    padding: 20px;
+.img-proc {
+  margin-left: 20px;
+  
 }
 
-.pdcol {
-    padding: 0 10px;
+.subtitulo-proc {
+  text-align:center;
+  margin-right: 40px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  background-color: blueviolet;
 }
 
+.txt-proc {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.btn-proc {
+    margin-top: -10px;
+}
 
