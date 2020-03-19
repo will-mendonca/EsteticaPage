@@ -1,7 +1,9 @@
 <header>
-  <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white ">
+  <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light">
     <div class="container">
-       <img class="navbar-brand logo" [routerLink]="['/']" src='/assets/logo.jpg'/>
+       <a  [routerLink]="['/']">
+         <img class="navbar-brand logo" src='/assets/logo.jpg' />
+       </a>
        <button class="navbar-toggler"
                type="button"
                data-toggle="collapse"
@@ -17,13 +19,13 @@
             class="nav-item"
             [routerLinkActive]="['link-active']"
             [routerLinkActiveOptions]="{ exact: true }">
-            <a class="nav-link text-dark" [routerLink]="['/']">Sobre</a>
+            <a class="nav-link text-dark" [routerLink]="['/sobre']">Sobre</a>
           </li>
           <li class="nav-item" [routerLinkActive]="['link-active']">
-            <a class="nav-link text-dark" [routerLink]="['/counter']">Procedimentos</a>
+            <a class="nav-link text-dark" [routerLink]="['/proced']">Procedimentos</a>
           </li>
           <li class="nav-item" [routerLinkActive]="['link-active']">
-            <a class="nav-link text-dark" [routerLink]="['/fetch-data']">Contato</a>
+            <a class="nav-link text-dark" [routerLink]="['/contato']">Contato</a>
           </li>
         </ul>
       </div>

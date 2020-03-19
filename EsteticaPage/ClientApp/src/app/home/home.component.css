@@ -102,19 +102,19 @@
   text-align: center;
   margin-top: 60px;
 }
-.tituloprocedimentos:after {
-  content: "";
-  display: block;
-  width: 60px;
-  height: 3px;
-  background: black;
-  margin: 2px auto;
-  margin-bottom: 40px;
-}
+
+  .tituloprocedimentos:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: black;
+    margin: 2px auto;
+    margin-bottom: 40px;
+  }
 
 .img-proc {
   margin-left: 20px;
-  
 }
 
 .subtitulo-proc {
@@ -125,15 +125,14 @@
   line-height: 20px;
   text-transform: uppercase;
   letter-spacing: .1em;
-  background-color: #C0B283;
+  background-color: blueviolet;
 }
 
 .txt-proc {
-    margin-top: 40px;
-    text-align: center;
+  margin-top: 40px;
+  text-align: center;
 }
 
 .btn-proc {
-    margin-top: -10px;
+  margin-top: -10px;
 }
-

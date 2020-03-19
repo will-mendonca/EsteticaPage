@@ -5,12 +5,7 @@
   box-sizing: border-box;
 }
 
-.container {
-  width: 1140px;
-  margin: 0 auto;
-  padding: 0px;
-  position: relative;
-}
+
 
   .container:after, .container:before {
     content: " ";
@@ -101,23 +96,25 @@
 .tituloprocedimentos {
   text-align: center;
   margin-top: 60px;
-}
-.tituloprocedimentos:after {
-  content: "";
-  display: block;
-  width: 60px;
-  height: 3px;
-  background: black;
-  margin: 2px auto;
   margin-bottom: 40px;
 }
 
+  .tituloprocedimentos:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: black;
+    margin: 2px auto;
+    margin-bottom: 40px;
+  }
+
 .img-proc {
   margin-left: 20px;
-  
 }
 
 .subtitulo-proc {
+  width: 340px;
   text-align: center;
   margin-right: 40px;
   font-weight: bold;
@@ -129,11 +126,14 @@
 }
 
 .txt-proc {
-    margin-top: 40px;
-    text-align: center;
+  margin-top: 40px;
+  text-align: center;
 }
 
 .btn-proc {
-    margin-top: -10px;
+  margin-top: -10px;
 }
 
+.margembaixo {
+    margin-bottom: 20px;
+}

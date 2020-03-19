@@ -9,6 +9,9 @@ import { HomeComponent } from './home/home.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './header/header.component';
 import { ProcedimentosComponent } from './procedimentos/procedimentos.component';
+import { SobreComponent } from './sobre/sobre.component';
+import { ProcedComponent } from './proced/proced.component';
+import { ContatoComponent } from './contato/contato.component';
 
 
 @NgModule({
@@ -18,6 +21,9 @@ import { ProcedimentosComponent } from './procedimentos/procedimentos.component'
     HomeComponent,
     HeaderComponent,
     ProcedimentosComponent,
+    SobreComponent,
+    ProcedComponent,
+    ContatoComponent,
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
@@ -25,6 +31,9 @@ import { ProcedimentosComponent } from './procedimentos/procedimentos.component'
     FormsModule,
     RouterModule.forRoot([
       { path: '', component: HomeComponent, pathMatch: 'full' },
+      { path: 'sobre', component: SobreComponent },
+      { path: 'proced', component: ProcedComponent },
+      { path: 'contato', component: ContatoComponent },
     ]),
     BrowserAnimationsModule
   ],
